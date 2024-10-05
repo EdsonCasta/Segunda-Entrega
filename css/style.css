@@ -5,37 +5,39 @@
 }
 
 .header {
+    width: 1440px;
+    height: 91px;
     background-color: #f5f5f5;
-    padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .logo {
-    color: #252B42;
-    width: 63px; 
-    height: 32px; 
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px; 
-    font-weight: 700; 
-    line-height: 32px; 
+    color: #252B42;
+    width: 63px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
     letter-spacing: 0.1px;
-    text-align: left; 
-    margin-top: 13px; 
+    margin-top: 32px;
+    margin-bottom: 27px;
+    margin-left: 92px;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 20px; 
+    gap: 45px;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    margin-left: 783px;
 }
 
 .login {
@@ -70,34 +72,22 @@
 
 /* section */
 
-/* Container general */
 .container-fluid {
     width: 1440px;
     height: 682px;
-    padding: 0 1px 0 0;
-    gap: 0;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #DDF4FF;
 }
 
-/* Row */
-.row {
-    width: 1439px;
-    height: 682px;
-    gap: 30px;
-    display: flex; /* Flexbox para estructura de columnas */
-    flex-wrap: wrap; /* Ajustar a múltiples filas si es necesario */
-}
-
-/* Columnas */
 .col-md-6 {
     width: 573px;
-    height: auto;
+    height: 386px;
     gap: 30px;
-    display: flex;
-    flex-direction: column;
+    margin-top: 243px;
+    margin-left: 132px;
 }
 
-/* Estilos del h5 (Best dental surgeons) */
 #header-tag {
     width: 174px;
     height: 24px;
@@ -107,10 +97,10 @@
     line-height: 24px;
     letter-spacing: 0.1px;
     text-align: left;
-    color: #96BB7C; /* Color de fondo que mencionaste */
+    margin-bottom: 20px;
+    color: #96BB7C;
 }
 
-/* Estilos del h1 (25K+ STUDENTS TRUST US) */
 #headline {
     width: 542px;
     height: 160px;
@@ -120,10 +110,9 @@
     line-height: 80px;
     letter-spacing: 0.2px;
     text-align: left;
-    color: #252B42; /* Color de fondo mencionado */
+    color: #252B42;
 }
 
-/* Estilos del h4 (Our goal...) */
 #sub-headline {
     width: 458px;
     height: 60px;
@@ -133,7 +122,9 @@
     line-height: 30px;
     letter-spacing: 0.2px;
     text-align: left;
-    color: #737373; /* Color de fondo mencionado */
+    color: #737373;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /* Botones */
@@ -142,7 +133,7 @@
     gap: 10px;
 }
 
-button.primary {
+.primary {
     width: 193px;
     height: 52px;
     padding: 15px 40px;
@@ -156,7 +147,7 @@ button.primary {
     font-weight: 700;
 }
 
-button.secondary {
+.secondary {
     width: 162px;
     height: 52px;
     padding: 15px 40px;
@@ -170,89 +161,19 @@ button.secondary {
     font-weight: 700;
 }
 
-/* Estilos del contenedor principal */
-.container-fluid {
-    width: 1440px;
-    height: 682px;
-    padding: 0;
-}
-
-/* Estilos de la fila */
-.row {
-    display: flex;
-    gap: 30px;
-}
-
-/* Columna izquierda (textos y botones) */
-.col-md-6 {
-    width: 704px;
-    height: 682px;
-    padding: 64px 0 0 0;
-}
-
-#header-tag {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #96BB7C;
-    margin-bottom: 20px;
-}
-
-#headline {
-    font-family: Montserrat;
-    font-size: 58px;
-    font-weight: 700;
-    line-height: 80px;
-    color: #252B42;
-}
-
-#sub-headline {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #737373;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-/* Estilos para los botones */
 .cta button {
     padding: 15px 40px;
     border-radius: 5px;
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
     line-height: 22px;
 }
 
-.cta .primary {
-    background-color: #96BB7C;
-    color: #ffffff;
-    margin-right: 10px;
-}
-
-.cta .secondary {
-    background-color: #ffffff;
-    color: #96BB7C;
-    border: 1px solid #96BB7C;
-}
-
-/* Columna derecha (imágenes) */
 .hero-cover-1 {
     width: 704px;
     height: 682px;
     position: relative;
-}
-
-/* Estilos para las imágenes */
-.image-container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    padding: 64px 0px 0px 0px;
 }
 
 .image-10 {
@@ -279,7 +200,7 @@ button.secondary {
     position: absolute;
     top: 483px;
     left: 101.65px;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .technology-1 {
@@ -296,7 +217,224 @@ button.secondary {
     position: absolute;
     top: 111.66px;
     left: 146.64px;
-    z-index: -1; /* Coloca el elemento detrás de las imágenes */
-    background-color: rgba(184, 240, 215, 0.3); /* Color de fondo semitransparente */
-    border-radius: 50%; /* Asegura que sea un círculo */
+    border-radius: 50%; 
+    border: 79.18px solid #B8F0D7; 
+    background-color: rgba(184, 240, 215, 0.3);
+    z-index: -1; 
+}
+
+/* section 2 */
+
+.Stats-1 {
+    width: 1440px;
+    height: 264px;
+    top: 777px;
+    padding: 0 195px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.row {
+    width: 1050px;
+    height: 264px;
+    padding: 80px 0;
+    gap: 50px; 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 195.5px;
+}
+
+.col-md-3 {
+    width: 238px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Stats-1 h1 {
+    width: 101px;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #96BB7C;
+}
+
+.Stats-1 h5 {
+    width: 146px;
+    height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #252B42;
+}
+
+@media (max-width: 1440px) {
+    .Stats-1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Stats-1 article {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col-md-3 {
+        margin-bottom: 20px;
+    }
+}
+
+/* section 3 */
+
+.Layout-1 {
+    width: 1440px;
+    height: 718px;
+    padding: 160px 198px;
+    background-color: #FFF2F3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.Layout-1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.article-container {
+    display: flex;
+    gap: 30px;
+}
+
+.col-md-4 {
+    width: 30%;
+    background-color: #FFFFFF;
+    padding: 35px 40px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.col-md-4 img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    padding: 22px;
+    background-color: #FFF2F3;
+    margin-bottom: 20px;
+}
+
+.col-md-4 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #252B42;
+    margin-bottom: 15px;
+}
+
+.col-md-4 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+}
+
+@media (max-width: 768px) {
+    .article-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .col-md-4 {
+        width: 100%;
+    }
+
+    .Layout-1 {
+        padding: 80px 20px;
+    }
+
+    .Layout-1 h2 {
+        font-size: 32px;
+    }
+}
+
+/* footer */
+
+footer {
+    width: 1440px;
+    height: 74px;
+    background-color: #FAFAFA;
+    padding: 0px 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1050px;
+    height: 74px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2 {
+    width: 1049px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 213px;
+}
+
+.col-md-7 {
+    width: 600px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.col-md-7 h6 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #737373;
+}
+
+.social-media {
+    list-style: none;
+    width: 112px;
+    height: 24px;
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
 }
